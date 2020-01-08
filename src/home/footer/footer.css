@@ -1,0 +1,36 @@
+.h1{ 
+    font-weight: bold;
+}
+.container{
+    margin: 100px 100px;
+}
+
+ol{
+    list-style-type: decimal;
+  }
+
+.paragraph{
+    color: black;
+    font-size:1em;
+    text-align: left;
+    margin-left:30px;
+    max-width: 70%;
+
+}
+.link{
+    display: flex;
+    flex-direction: row;
+}
+.copyright{
+    margin-top:10px;
+    text-align: right;
+    bottom:0;
+    right:0;
+}
+
+.privacy-policy{
+    margin-top:20px;
+    text-align: right;
+    bottom:0;
+    right:0;
+}

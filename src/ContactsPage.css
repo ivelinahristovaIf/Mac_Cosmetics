@@ -1,0 +1,53 @@
+.map-container{
+    margin-left: 10px;
+    align-items: center;
+}
+
+.location-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact-form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.form-group{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn-submit{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items:flex-end;
+    min-width: 5em;
+    cursor: pointer;
+    color: teal;
+}
+
+.form-control{
+    width: 90%;
+}
+.message-container{
+    width: 40%;
+    height: 30%;
+}
+
+.personal-data{
+    /* width: 40%; */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    /* padding:30px;
+    margin: 30px; */
+    flex-wrap: wrap;
+}

@@ -1,0 +1,26 @@
+.CategoryList{
+     display: flex;
+     flex-direction: row;
+     justify-content: space-between;
+     flex-wrap: wrap;
+     width: 90%;
+}
+
+.stores {
+    width: 100%;
+    height: auto;
+
+}
+.h1-stores {
+    font-weight: bold;
+    color: rgba(0,0,0,0.1);
+    font-size: 8em;
+    margin: 10% 0 0 10%;
+    transform: translateY(4vh)
+}
+h2 {
+    font-weight: 100;
+    position: absolute;
+    margin: 0 0 0 10%;
+    transform: translateY(-4vh)
+}

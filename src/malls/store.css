@@ -1,0 +1,32 @@
+.store {
+  margin: 20px;
+  display: flex;
+  justify-content: center;
+}
+.store-div {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+.store-name {
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
+  font-size: 0.5em;
+  color: white;
+}
+.store-pic {
+  width: 250px;
+  height: 300px;
+  object-fit: cover;
+  opacity: 1;
+  border: 2px solid lightgrey;
+}
+.store-pic:hover {
+  opacity: 0.5;
+  -webkit-transition: 0.3s ease-in-out;
+  transition: 0.3s ease-in-out;
+  -webkit-transform: scale(1.06);
+  transform: scale(1.06);
+  cursor: pointer;
+}
