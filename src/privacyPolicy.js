@@ -10,6 +10,7 @@ class PrivacyPolicy extends Component {
         </div>
         <div className="our-mission">
           <p> </p>
+          <div className="paragraph-container">
           <h3 className="title">Pivacy Policy Declaration</h3>
           <span>
             It's important for us to save your personal data. Thats why our web
@@ -17,9 +18,12 @@ class PrivacyPolicy extends Component {
             GDPR. The law about saveing personal data and the law about
             e-commerce.{" "}
           </span>
-          <div className="section-row-between">
-            <div className="line4"></div>
           </div>
+          {/* <div className="section-row-between">
+            <div className="line4"></div>
+          </div> */}
+           <div className="paragraph-container">
+
           <h3 className="title">Cookies Policy</h3>
           <span>
             To be sure that you are taking the best information and the best
@@ -32,9 +36,12 @@ class PrivacyPolicy extends Component {
             Cookies also help us to make sure that you can easily find the item
             you are looking for.{" "}
           </span>
-          <div className="section-row-between">
-            <div className="line4"></div>
           </div>
+          {/* <div className="section-row-between">
+            <div className="line4"></div>
+          </div> */}
+                    <div className="paragraph-container">
+
           <h3 className="title">What cookies are?</h3>
           <span>
             Cookies are a small bit of data, sent to your browser by a web
@@ -48,10 +55,8 @@ class PrivacyPolicy extends Component {
             using cookies to make the user experience better. Using cookies is
             not going to damage your files with viruses.{" "}
           </span>
-          <div className="section-row-between">
-            <div className="line4"></div>
-          </div>
-          <h3 className="title">Analysis of Internet Traffic</h3>
+       </div>
+          {/* <h3 className="title">Analysis of Internet Traffic</h3>
           <span>
             Our web site is analyzing users' internet traffic with Google
             Analysis. That's why we are using Cookies, which help us to analys
@@ -77,7 +82,7 @@ class PrivacyPolicy extends Component {
           </span>
           <div className="section-row-between">
             <div className="line4"></div>
-          </div>
+          </div> */}
         </div>
       </React.Fragment>
     );

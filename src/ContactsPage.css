@@ -10,11 +10,12 @@
     align-items: center;
 }
 
-.contact-form{
+#contact-form{
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    align-content: center;
 }
 
 .form-group{
@@ -32,22 +33,38 @@
     min-width: 5em;
     cursor: pointer;
     color: teal;
+    background-color: cornflowerblue;
 }
-
+.form-group textarea{
+    width:100%;
+}
 .form-control{
     width: 90%;
 }
 .message-container{
-    width: 40%;
+    width: 50%;
     height: 30%;
 }
-
-.personal-data{
-    /* width: 40%; */
+.fields{
+    
     display: flex;
-    flex-direction: row;
+    justify-content: space-between;
+}
+.fields input{
+    width: 95%;
+}
+.personal-data{
+     width: 60vw;
+    display: flex;
+    flex-direction: column;
     justify-content: center;
+    align-content: center;
     /* padding:30px;
     margin: 30px; */
     flex-wrap: wrap;
+}
+
+.fbIcon{
+    width: 50px;
+    height: 50px;
 }
