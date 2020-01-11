@@ -10,7 +10,7 @@ class Store extends Component {
           <div className="store-div">
             <img
               className="store-pic"
-              alt=""
+              alt="Front view of the mall"
               src={require("../malls/images/" + this.props.image)}
             ></img>
             <span className="store-name">{this.props.name}</span>

@@ -13,6 +13,7 @@ import Category from "./categorys/category";
 import ContactsPage from "./ContactsPage";
 import PrivacyPolicy from "./privacyPolicy";
 import { Helmet } from "react-helmet";
+import ScrollToTop from "./ScrollToTop";
 
 class App extends Component {
   state = {
@@ -55,100 +56,102 @@ class App extends Component {
           {this.state.form}
           <main className="main">
             <BrowserRouter>
-              <Switch>
-                <Route exact path="/" component={HomePage} />
-                <Route exact path="/Paradise Center" component={Paradise} />
-                <Route exact path="/Mall of Sofia" component={Mall_of_Sofia} />
-                <Route exact path="/The Mall" component={The_Mall} />
+              <ScrollToTop>
+                <Switch>
+                  <Route exact path="/" component={HomePage} />
+                  <Route exact path="/Paradise Center" component={Paradise} />
+                  <Route exact path="/Mall of Sofia" component={Mall_of_Sofia} />
+                  <Route exact path="/The Mall" component={The_Mall} />
 
-                <Route
-                  exact
-                  path="/Paradise Center/1"
-                  render={() => <Category category={this.state.menu1} />}
-                />
-                <Route
-                  exact
-                  path="/Paradise Center/2"
-                  render={() => <Category category={this.state.menu2} />}
-                />
-                <Route
-                  exact
-                  path="/Paradise Center/3"
-                  render={() => <Category category={this.state.menu3} />}
-                />
-                <Route
-                  exact
-                  path="/Paradise Center/4"
-                  render={() => <Category category={this.state.menu1} />}
-                />
-                <Route
-                  exact
-                  path="/Paradise Center/5"
-                  render={() => <Category category={this.state.menu2} />}
-                />
+                  <Route
+                    exact
+                    path="/Paradise Center/1"
+                    render={() => <Category category={this.state.menu1} />}
+                  />
+                  <Route
+                    exact
+                    path="/Paradise Center/2"
+                    render={() => <Category category={this.state.menu2} />}
+                  />
+                  <Route
+                    exact
+                    path="/Paradise Center/3"
+                    render={() => <Category category={this.state.menu3} />}
+                  />
+                  <Route
+                    exact
+                    path="/Paradise Center/4"
+                    render={() => <Category category={this.state.menu1} />}
+                  />
+                  <Route
+                    exact
+                    path="/Paradise Center/5"
+                    render={() => <Category category={this.state.menu2} />}
+                  />
 
-                <Route
-                  exact
-                  path="/Mall of Sofia/1"
-                  render={() => <Category category={this.state.menu1} />}
-                />
-                <Route
-                  exact
-                  path="/Mall of Sofia/2"
-                  render={() => <Category category={this.state.menu2} />}
-                />
-                <Route
-                  exact
-                  path="/Mall of Sofia/3"
-                  render={() => <Category category={this.state.menu3} />}
-                />
-                <Route
-                  exact
-                  path="/Mall of Sofia/4"
-                  render={() => <Category category={this.state.menu1} />}
-                />
-                <Route
-                  exact
-                  path="/Mall of Sofia/5"
-                  render={() => <Category category={this.state.menu2} />}
-                />
+                  <Route
+                    exact
+                    path="/Mall of Sofia/1"
+                    render={() => <Category category={this.state.menu1} />}
+                  />
+                  <Route
+                    exact
+                    path="/Mall of Sofia/2"
+                    render={() => <Category category={this.state.menu2} />}
+                  />
+                  <Route
+                    exact
+                    path="/Mall of Sofia/3"
+                    render={() => <Category category={this.state.menu3} />}
+                  />
+                  <Route
+                    exact
+                    path="/Mall of Sofia/4"
+                    render={() => <Category category={this.state.menu1} />}
+                  />
+                  <Route
+                    exact
+                    path="/Mall of Sofia/5"
+                    render={() => <Category category={this.state.menu2} />}
+                  />
 
-                <Route
-                  exact
-                  path="/The Mall/1"
-                  render={() => <Category category={this.state.menu1} />}
-                />
-                <Route
-                  exact
-                  path="/The Mall/2"
-                  render={() => <Category category={this.state.menu2} />}
-                />
-                <Route
-                  exact
-                  path="/The Mall/3"
-                  render={() => <Category category={this.state.menu3} />}
-                />
-                <Route
-                  exact
-                  path="/The Mall/4"
-                  render={() => <Category category={this.state.menu1} />}
-                />
-                <Route
-                  exact
-                  path="/The Mall/5"
-                  render={() => <Category category={this.state.menu2} />}
-                />
+                  <Route
+                    exact
+                    path="/The Mall/1"
+                    render={() => <Category category={this.state.menu1} />}
+                  />
+                  <Route
+                    exact
+                    path="/The Mall/2"
+                    render={() => <Category category={this.state.menu2} />}
+                  />
+                  <Route
+                    exact
+                    path="/The Mall/3"
+                    render={() => <Category category={this.state.menu3} />}
+                  />
+                  <Route
+                    exact
+                    path="/The Mall/4"
+                    render={() => <Category category={this.state.menu1} />}
+                  />
+                  <Route
+                    exact
+                    path="/The Mall/5"
+                    render={() => <Category category={this.state.menu2} />}
+                  />
 
-                <Route exact path="/Contacts" render={() => <ContactsPage />} />
+                  <Route exact path="/Contacts" render={() => <ContactsPage />} />
 
-                <Route
-                  exact
-                  path="/privacy-policy"
-                  render={() => <PrivacyPolicy />}
-                />
+                  <Route
+                    exact
+                    path="/privacy-policy"
+                    render={() => <PrivacyPolicy />}
+                  />
 
-                <Route component={NoPage} />
-              </Switch>
+                  <Route component={NoPage} />
+                </Switch>
+              </ScrollToTop>
             </BrowserRouter>
           </main>
           <footer>
