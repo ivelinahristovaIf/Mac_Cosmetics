@@ -3,10 +3,11 @@
     flex-direction: column;
     justify-content:center;
     align-items: center;
+    margin-top: 3vh;
 }
 .contact-info{
-    margin-top: 0.5vw;
-    margin-bottom: 0.5vw;
+    margin-top: 0.5vh;
+    margin-bottom: 0.5vh;
 }
 .map-container{
     margin-left: 10px;

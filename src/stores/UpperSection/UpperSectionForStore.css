@@ -3,7 +3,7 @@
 }
 
 .upper-section{
-    height: 50vw;
+    height: 50vh;
     width:100vw;
     display: flex;
     flex-direction: column;
@@ -15,9 +15,9 @@
     /* z-index: -1; */
     position: absolute;
     top: 64px;
-    margin-left: 0vw;
+    margin-top: 1vh;
     /* display: block; */
-    height: 40vw;
+    height: 40vh;
     width: 100vw;
     float: right;
     background: #fff left top no-repeat;

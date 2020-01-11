@@ -48,7 +48,7 @@ class Header extends Component {
             </div>
             <div className="mobile-header"></div>
             <div className="tools-wrapper">
-              <div className="bag-wrapper icons">
+              <div className="contact-wrapper icons">
                 <a className="link" href="/Contacts" title="Contacts Page">
                   <img
                     className="contacts-icon "
