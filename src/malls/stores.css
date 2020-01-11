@@ -1,12 +1,18 @@
 .stores {
-  width: 100%;
+  width: 100vw;
   height: auto;
+}
+.stores-text{
+  display: flex;
+  flex-direction: column-reverse;
+  justify-content: space-between;
+  align-content: center;
 }
 .h1-stores {
   font-weight: bold;
   color: rgba(0, 0, 0, 0.1);
   font-size: 9em;
-  margin: 10% 0 0 10%;
+  margin: 10vw 10vw 0 0;
   transform: translateY(4vh);
 }
 h2 {

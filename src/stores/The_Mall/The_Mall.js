@@ -13,9 +13,9 @@ class The_Mall extends Component {
     return (
       <React.Fragment>
         <HeroSection name="The Mall" />
-        <section class="stores">
+        <section className="stores">
           <div>
-            <h1 class="h1-stores"> The Mall </h1>
+            <h1 className="h1-stores"> The Mall </h1>
             <h2> Categories </h2>
           </div>
           <div className="CategoryList">

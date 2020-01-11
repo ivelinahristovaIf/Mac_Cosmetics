@@ -16,33 +16,35 @@
 }  */
 
 .lips{
-    margin-left: 7.5%;
-    width: 85%;
+    /* margin-left: 7.5%; */
+    width: 85vw;
     background: #fff left top no-repeat;
     background-size: cover;
-    position: relative;
+    background-position: center;
 }
 
-.hero-section .hero-section-content {
-    /* position: absolute; */
+/* .hero-section .hero-section-content {
     width: 100%;
     max-width: 1425px;
     margin-left: auto;
     margin-right: auto;
-}
+} */
 
-.hero-section-content {
+/* .hero-section-content {
     position: absolute;
     top: 64px;
-    height: 100%;
+    height: 50%;
     display: flex;
     flex-direction: column;
     justify-content: center;
-}
+} */
 
 .hero-section{
-    top: 64px;
-    height: 488px;
+    height: 35vw;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
 }
 
 

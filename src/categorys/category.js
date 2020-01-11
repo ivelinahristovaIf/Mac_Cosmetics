@@ -28,12 +28,11 @@ class Category extends Component {
     catalogue = catalogue.categorys[currentCategory.id]["category-items"];
     this.setState({ currentCategory });
     this.setState({ catalogue });
+    console.log(catalogue);
+
   }
 
   render() {
-    const currentCategory = JSON.parse(
-      sessionStorage.getItem("currentCategory")
-    );
     return (
       <div className="category-wrapper">
         <section>
