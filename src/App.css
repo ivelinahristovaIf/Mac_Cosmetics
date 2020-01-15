@@ -1,6 +1,7 @@
 main {
   margin-top: 64px;
-  width: 100vw;
+  width: 90vw;
+  overflow: hidden;
   display: flex;
   flex-direction: column;
   justify-content: center;
