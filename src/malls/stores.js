@@ -17,9 +17,14 @@ class Stores extends Component {
       <React.Fragment>
         <HeroSection />
         <section className="stores">
-          <div className="stores-text">
-            <h1 className="h1-stores"> Stores </h1>
-            <h2> Locations in Sofia</h2>
+          <div className="whitespace">
+            
+          </div>
+          <div className="stores-text-wrapper">
+            <div className="stores-text">
+              <h1 className="homepage-stores"> Stores </h1>
+              <h2> Locations in Sofia</h2>
+            </div>
           </div>
           <div className="storeList">
             {this.state.stores.map(store => (

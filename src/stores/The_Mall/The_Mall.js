@@ -16,7 +16,7 @@ class The_Mall extends Component {
         <section className="stores">
           <div>
             <h1 className="h1-stores"> The Mall </h1>
-            <h2> Categories </h2>
+            <h2 className="stores-categories"> Categories </h2>
           </div>
           <div className="CategoryList">
             {this.state.The_Mall.map(category => (

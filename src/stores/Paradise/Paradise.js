@@ -16,7 +16,7 @@ class Paradise extends Component {
         <section className="stores">
           <div>
             <h1 className="h1-stores"> Paradise Center</h1>
-            <h2> Categories </h2>
+            <h2 className="stores-categories"> Categories </h2>
           </div>
           <div className="CategoryList">
             {this.state.Paradise.map(category => (

@@ -18,7 +18,7 @@
     top: 64px;
     margin-top: 1vh;
     margin-left: 2vw;
-    height: 100vh;
+    height: 80vh;
     max-width: 97vw;
     min-width: 95vw;
     float: right;
@@ -51,4 +51,5 @@
     padding: 48px 0 48px 0;
     word-wrap: break-word;
     text-align: center;
+    transform: translateY(25vh) translateX(5vw);
 }

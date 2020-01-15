@@ -16,7 +16,7 @@ class Mall_of_Sofia extends Component {
         <section className="stores">
           <div>
             <h1 className="h1-stores"> Mall of Sofia </h1>
-            <h2> Categories </h2>
+            <h2 className="stores-categories"> Categories </h2>
           </div>
           <div className="CategoryList">
             {this.state.Mall_of_Sofia.map(category => (

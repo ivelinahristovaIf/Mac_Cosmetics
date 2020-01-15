@@ -49,9 +49,10 @@
 }
 
 
-.hero-section .hero-section-text {
-    max-width: 70%;
+.hero-section-text {
+    /* max-width: 70%; */
+    width: 80vw !important;
     padding: 48px 0 48px 0;
-    word-wrap: break-word;
-    text-align: center;
+    /* word-wrap: break-word; */
+    /* text-align: center; */
 }
