@@ -14,6 +14,7 @@ import ContactsPage from "./ContactsPage";
 import PrivacyPolicy from "./privacyPolicy";
 import { Helmet } from "react-helmet";
 import ScrollToTop from "./ScrollToTop";
+import ReactGA from 'react-ga';
 
 class App extends Component {
   state = {
@@ -28,6 +29,11 @@ class App extends Component {
   componentDidMount() {
     // let catalogue = require("./categorys/catalogue/catalogue.json");
   }
+
+  initializeReactGA() {
+    ReactGA.initialize('UA-156388922-1');
+    ReactGA.pageview('/');
+}
 
   render() {
     return (
