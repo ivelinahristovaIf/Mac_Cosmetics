@@ -1,87 +1,84 @@
-.info-container{
-    display: flex;
-    flex-direction: column;
-    justify-content:center;
-    align-items: center;
-    margin-top: 3vh;
+.info-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 3vh;
 }
-.contact-info{
-    margin-top: 0.5vh;
-    margin-bottom: 0.5vh;
+.contact-info {
+  margin-top: 0.5vh;
+  margin-bottom: 0.5vh;
 }
-.map-container{
-    margin-left: 10px;
-    align-items: center;
-}
-
-.location-container{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+.map-container {
+  margin-left: 10px;
+  align-items: center;
 }
 
-.social-networkd{
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: center;
+.location-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
-#contact-form{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    align-content: center;
+.social-networkd {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
 }
 
-.form-group{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+#contact-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
 }
 
-.btn-submit{
-    min-width: 5em;
-    cursor: pointer;
-    color: black;
-    background-color: #FBB4B0;
-    border: 2px solid #4CAF50;
-    font-size: 1.8vw;
-    border-radius: 8px;
-}
-.form-group textarea{
-    width:100%;
-}
-.form-control{
-    width: 90%;
-}
-.message-container{
-    width: 50%;
-    height: 30%;
-}
-.fields{
-    
-    display: flex;
-    justify-content: space-between;
-}
-.fields input{
-    width: 95%;
-}
-.personal-data{
-     width: 60vw;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-content: center;
-    /* padding:30px;
-    margin: 30px; */
-    flex-wrap: wrap;
+.form-group {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
-.fbIcon{
-    width: 50px;
-    height: 50px;
+.btn-submit {
+  min-width: 5em;
+  cursor: pointer;
+  color: black;
+  background-color: #fbb4b0;
+  border: 2px solid #4caf50;
+  font-size: 1.8vw;
+  border-radius: 8px;
+}
+.form-group textarea {
+  width: 100%;
+}
+.form-control {
+  width: 90%;
+}
+.message-container {
+  width: 50%;
+  height: 30%;
+}
+.fields {
+  display: flex;
+  justify-content: space-between;
+}
+.fields input {
+  width: 95%;
+}
+.personal-data {
+  width: 60vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  flex-wrap: wrap;
+}
+
+.fbIcon {
+  width: 50px;
+  height: 50px;
 }

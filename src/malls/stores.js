@@ -17,9 +17,6 @@ class Stores extends Component {
       <React.Fragment>
         <HeroSection />
         <section className="stores">
-          <div className="whitespace">
-            
-          </div>
           <div className="stores-text-wrapper">
             <div className="stores-text">
               <h1 className="homepage-stores"> Stores </h1>

@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import "./ContactsPage.css";
-import axios from "axios";
+// import axios from "axios";
 import { fbIcon } from "./home/images/fb.png";
 import { instaIcon } from "./home/images/instagram.jpg";
 
@@ -48,8 +48,8 @@ class ContactsPage extends Component {
         <form
           id="contact-form"
           onSubmit={this.resetForm.bind(this)}
-        //   {this.handleSubmit.bind(this)}
-        // method="POST"
+          //   {this.handleSubmit.bind(this)}
+          // method="POST"
         >
           <div className="personal-data">
             <div className="fields">
@@ -72,7 +72,9 @@ class ContactsPage extends Component {
               <textarea className="message-container" rows="5"></textarea>
             </div>
           </div>
-          <button type="submit" className="btn-submit">Submit</button>
+          <button type="submit" className="btn-submit">
+            Submit
+          </button>
         </form>
 
         <div className="location-container">
@@ -104,10 +106,6 @@ class ContactsPage extends Component {
             </a>
           </div>
         </div>
-
-
-
-
       </React.Fragment>
     );
   }

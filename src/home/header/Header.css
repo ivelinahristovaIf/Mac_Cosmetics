@@ -5,7 +5,8 @@ header {
   align-items: stretch;
   position: relative;
   z-index: 0;
-  border-bottom: 2px solid #FBB4B0;}
+  border-bottom: 2px solid #fbb4b0;
+}
 .icon {
   color: #d70f64;
   font-size: 11pt;
@@ -26,8 +27,6 @@ header {
 }
 
 .logo-wrapper {
-  /* flex-grow: 1;
-    width: 15%; */
   display: flex;
   justify-content: flex-start;
 }

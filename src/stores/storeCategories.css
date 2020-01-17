@@ -16,11 +16,9 @@
     color: rgba(0,0,0,0.1);
     font-size: 6.2rem;
     margin: 0;
-    /* transform: translateY(4vh) */
 }
 h2.stores-categories {
     font-weight: 100;
     position: absolute;
-    /* margin: 0 0 0 10%; */
     transform: translateY(-4vh)
 }

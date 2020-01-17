@@ -1,79 +1,63 @@
-.item { 
-    height: 150px;
-    width: 95%;
-    -ms-flex-item-align: center;
-    border-bottom:  1px solid #ebebeb;
+.item {
+  height: 150px;
+  width: 95%;
+  -ms-flex-item-align: center;
+  border-bottom: 1px solid #ebebeb;
 }
 
 .item-wrapper {
-    max-width: 1000px;
-    height: 100%;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+  max-width: 1000px;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
-.name-container{
-    width: 200px;
-    -ms-flex-item-align: center;
+.name-container {
+  width: 200px;
+  -ms-flex-item-align: center;
 }
 
-.itemImage{
-    max-height: 90%;
-    max-width: 90%;
-    /* margin-top: 5px;
-    margin-bottom: 10px;
-    margin-left: 5px;
-    margin-right: 5px; */
+.itemImage {
+  max-height: 90%;
+  max-width: 90%;
 }
 
-.image-container{
-   height: 90%;
-    max-width: 300px;
+.image-container {
+  height: 90%;
+  max-width: 300px;
 }
 
-.description-container{
-    display:flex;
-    align-items: center;
-    overflow: auto;
-    width:200px;
-    height:90%;
+.description-container {
+  display: flex;
+  align-items: center;
+  overflow: auto;
+  width: 200px;
+  height: 90%;
 }
 
 .price-container {
-    width: 90px;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-    margin-right: 10px;
-    margin-left: 10px;
+  width: 90px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-right: 10px;
+  margin-left: 10px;
 }
 
-.item-price{
-    /* align-items:right; */
-    margin-left: 10px;
-
+.item-price {
+  margin-left: 10px;
 }
 
-.weight-container{
-    font-size:small;
-    color: darkgrey;
-    text-align: justify;
+.weight-container {
+  font-size: small;
+  color: darkgrey;
+  text-align: justify;
 }
 
-.weight-text{
-    align-items: center;
-    height: 70%;
-    width: 40px;
-}
-
-
-.add-item {
-    background-color: #d70f64;
-    color: white;
-    width: 24px;
-    height: 24px;
-    text-align: center;
-    font-size: 1.5em;
+.weight-text {
+  align-items: center;
+  height: 70%;
+  width: 40px;
 }

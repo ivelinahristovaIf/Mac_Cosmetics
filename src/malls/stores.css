@@ -6,8 +6,6 @@
   display: flex;
   flex-direction: column;
   width: 90%;
-  /* justify-content: space-between;
-  align-content: center; */
   align-items: flex-start;
 }
 .homepage-stores {
@@ -15,13 +13,9 @@
   color: rgba(0, 0, 0, 0.1);
   font-size: 6.2rem;
   margin: 0;
-  /* transform: translateY(10vh); */
 }
 h2 {
   font-weight: 100;
-  /* position: absolute; */
-  /* margin: 0 0 0 10%; */
-  /* transform: translateY(-4vh); */
 }
 .stores-text-wrapper{  
   display: flex;
@@ -31,10 +25,5 @@ h2 {
   display: flex;
   flex-direction: row;
   justify-content: center;
-  /* padding: 30px; */
-  /* margin: 30px; */
   flex-wrap: wrap;
-}
-.whitespace{
-  height: 25vh;
 }

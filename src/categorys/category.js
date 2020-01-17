@@ -28,8 +28,6 @@ class Category extends Component {
     catalogue = catalogue.categorys[currentCategory.id]["category-items"];
     this.setState({ currentCategory });
     this.setState({ catalogue });
-    console.log(catalogue);
-
   }
 
   render() {
@@ -38,7 +36,7 @@ class Category extends Component {
         <section>
           <div className="category-image" />
 
-          <div className="nav-menu">
+          <div className="category-info">
             <h1 className="category-header"> </h1>
             <div className="rating">
               {" "}
