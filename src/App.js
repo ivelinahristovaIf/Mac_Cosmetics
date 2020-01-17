@@ -14,7 +14,10 @@ import ContactsPage from "./ContactsPage";
 import PrivacyPolicy from "./privacyPolicy";
 import { Helmet } from "react-helmet";
 import ScrollToTop from "./ScrollToTop";
-import ReactGA from 'react-ga';
+import ReactGA from "react-ga";
+
+ReactGA.initialize("UA-156388922-1");
+ReactGA.pageview(window.location.pathname);
 
 class App extends Component {
   state = {
@@ -30,11 +33,6 @@ class App extends Component {
     // let catalogue = require("./categorys/catalogue/catalogue.json");
   }
 
-  initializeReactGA() {
-    ReactGA.initialize('UA-156388922-1');
-    ReactGA.pageview('/');
-}
-
   render() {
     return (
       <div className="App">
@@ -48,14 +46,8 @@ class App extends Component {
           <meta name="theme-color" content="#FFFFFF" />
           <meta property="og:title" content="Mac Cosmetics" />
           <meta property="og:type" content="mac.cosmetics" />
-          <meta
-            property="og:url"
-            content="http://localhost:3000"
-          />
-          <meta
-            property="og:image"
-            content="./home/images/macLogo.png"
-          />
+          <meta property="og:url" content="http://localhost:3000" />
+          <meta property="og:image" content="./home/images/macLogo.png" />
         </Helmet>
         <React.Fragment>
           <Header />
@@ -66,7 +58,11 @@ class App extends Component {
                 <Switch>
                   <Route exact path="/" component={HomePage} />
                   <Route exact path="/Paradise Center" component={Paradise} />
-                  <Route exact path="/Mall of Sofia" component={Mall_of_Sofia} />
+                  <Route
+                    exact
+                    path="/Mall of Sofia"
+                    component={Mall_of_Sofia}
+                  />
                   <Route exact path="/The Mall" component={The_Mall} />
 
                   <Route
@@ -147,7 +143,11 @@ class App extends Component {
                     render={() => <Category category={this.state.menu2} />}
                   />
 
-                  <Route exact path="/Contacts" render={() => <ContactsPage />} />
+                  <Route
+                    exact
+                    path="/Contacts"
+                    render={() => <ContactsPage />}
+                  />
 
                   <Route
                     exact
