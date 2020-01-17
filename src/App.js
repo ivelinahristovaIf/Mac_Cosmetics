@@ -48,6 +48,10 @@ class App extends Component {
           <meta property="og:type" content="mac.cosmetics" />
           <meta property="og:url" content="http://localhost:3000" />
           <meta property="og:image" content="./home/images/macLogo.png" />
+          <meta
+            name="keywords"
+            content="mac,cosmetics,bulgaria,nbu,ivelina hristova,seo,lipstick,lipgloss,makeup,beauty"
+          />
         </Helmet>
         <React.Fragment>
           <Header />
